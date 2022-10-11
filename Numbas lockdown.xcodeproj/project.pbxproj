@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2D777B28F5A69200B4BADE /* Numbas_lockdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D777A28F5A69200B4BADE /* Numbas_lockdownApp.swift */; };
+		1E2D777D28F5A69200B4BADE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D777C28F5A69200B4BADE /* ContentView.swift */; };
+		1E2D777F28F5A69300B4BADE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D777E28F5A69300B4BADE /* Assets.xcassets */; };
+		1E2D778328F5A69300B4BADE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2D778228F5A69300B4BADE /* Preview Assets.xcassets */; };
+		1E2D778D28F5A69300B4BADE /* Numbas_lockdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D778C28F5A69300B4BADE /* Numbas_lockdownTests.swift */; };
+		1E2D779728F5A69300B4BADE /* Numbas_lockdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D779628F5A69300B4BADE /* Numbas_lockdownUITests.swift */; };
+		1E2D779928F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D779828F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E2D778928F5A69300B4BADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2D776F28F5A69200B4BADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2D777628F5A69200B4BADE;
+			remoteInfo = "Numbas lockdown";
+		};
+		1E2D779328F5A69300B4BADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E2D776F28F5A69200B4BADE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2D777628F5A69200B4BADE;
+			remoteInfo = "Numbas lockdown";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E2D777728F5A69200B4BADE /* Numbas lockdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Numbas lockdown.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2D777A28F5A69200B4BADE /* Numbas_lockdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownApp.swift; sourceTree = "<group>"; };
+		1E2D777C28F5A69200B4BADE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1E2D777E28F5A69300B4BADE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E2D778028F5A69300B4BADE /* Numbas_lockdown.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Numbas_lockdown.entitlements; sourceTree = "<group>"; };
+		1E2D778228F5A69300B4BADE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E2D778828F5A69300B4BADE /* Numbas lockdownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbas lockdownTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2D778C28F5A69300B4BADE /* Numbas_lockdownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownTests.swift; sourceTree = "<group>"; };
+		1E2D779228F5A69300B4BADE /* Numbas lockdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbas lockdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E2D779628F5A69300B4BADE /* Numbas_lockdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownUITests.swift; sourceTree = "<group>"; };
+		1E2D779828F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E2D777428F5A69200B4BADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D778528F5A69300B4BADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D778F28F5A69300B4BADE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2D776E28F5A69200B4BADE = {
+			isa = PBXGroup;
+			children = (
+				1E2D777928F5A69200B4BADE /* Numbas lockdown */,
+				1E2D778B28F5A69300B4BADE /* Numbas lockdownTests */,
+				1E2D779528F5A69300B4BADE /* Numbas lockdownUITests */,
+				1E2D777828F5A69200B4BADE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E2D777828F5A69200B4BADE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D777728F5A69200B4BADE /* Numbas lockdown.app */,
+				1E2D778828F5A69300B4BADE /* Numbas lockdownTests.xctest */,
+				1E2D779228F5A69300B4BADE /* Numbas lockdownUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E2D777928F5A69200B4BADE /* Numbas lockdown */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D777A28F5A69200B4BADE /* Numbas_lockdownApp.swift */,
+				1E2D777C28F5A69200B4BADE /* ContentView.swift */,
+				1E2D777E28F5A69300B4BADE /* Assets.xcassets */,
+				1E2D778028F5A69300B4BADE /* Numbas_lockdown.entitlements */,
+				1E2D778128F5A69300B4BADE /* Preview Content */,
+			);
+			path = "Numbas lockdown";
+			sourceTree = "<group>";
+		};
+		1E2D778128F5A69300B4BADE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D778228F5A69300B4BADE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E2D778B28F5A69300B4BADE /* Numbas lockdownTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D778C28F5A69300B4BADE /* Numbas_lockdownTests.swift */,
+			);
+			path = "Numbas lockdownTests";
+			sourceTree = "<group>";
+		};
+		1E2D779528F5A69300B4BADE /* Numbas lockdownUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D779628F5A69300B4BADE /* Numbas_lockdownUITests.swift */,
+				1E2D779828F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift */,
+			);
+			path = "Numbas lockdownUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2D777628F5A69200B4BADE /* Numbas lockdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2D779C28F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdown" */;
+			buildPhases = (
+				1E2D777328F5A69200B4BADE /* Sources */,
+				1E2D777428F5A69200B4BADE /* Frameworks */,
+				1E2D777528F5A69200B4BADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Numbas lockdown";
+			productName = "Numbas lockdown";
+			productReference = 1E2D777728F5A69200B4BADE /* Numbas lockdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E2D778728F5A69300B4BADE /* Numbas lockdownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2D779F28F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdownTests" */;
+			buildPhases = (
+				1E2D778428F5A69300B4BADE /* Sources */,
+				1E2D778528F5A69300B4BADE /* Frameworks */,
+				1E2D778628F5A69300B4BADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2D778A28F5A69300B4BADE /* PBXTargetDependency */,
+			);
+			name = "Numbas lockdownTests";
+			productName = "Numbas lockdownTests";
+			productReference = 1E2D778828F5A69300B4BADE /* Numbas lockdownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E2D779128F5A69300B4BADE /* Numbas lockdownUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E2D77A228F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdownUITests" */;
+			buildPhases = (
+				1E2D778E28F5A69300B4BADE /* Sources */,
+				1E2D778F28F5A69300B4BADE /* Frameworks */,
+				1E2D779028F5A69300B4BADE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E2D779428F5A69300B4BADE /* PBXTargetDependency */,
+			);
+			name = "Numbas lockdownUITests";
+			productName = "Numbas lockdownUITests";
+			productReference = 1E2D779228F5A69300B4BADE /* Numbas lockdownUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E2D776F28F5A69200B4BADE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					1E2D777628F5A69200B4BADE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					1E2D778728F5A69300B4BADE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1E2D777628F5A69200B4BADE;
+					};
+					1E2D779128F5A69300B4BADE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 1E2D777628F5A69200B4BADE;
+					};
+				};
+			};
+			buildConfigurationList = 1E2D777228F5A69200B4BADE /* Build configuration list for PBXProject "Numbas lockdown" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E2D776E28F5A69200B4BADE;
+			productRefGroup = 1E2D777828F5A69200B4BADE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2D777628F5A69200B4BADE /* Numbas lockdown */,
+				1E2D778728F5A69300B4BADE /* Numbas lockdownTests */,
+				1E2D779128F5A69300B4BADE /* Numbas lockdownUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E2D777528F5A69200B4BADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2D778328F5A69300B4BADE /* Preview Assets.xcassets in Resources */,
+				1E2D777F28F5A69300B4BADE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D778628F5A69300B4BADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D779028F5A69300B4BADE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E2D777328F5A69200B4BADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2D777D28F5A69200B4BADE /* ContentView.swift in Sources */,
+				1E2D777B28F5A69200B4BADE /* Numbas_lockdownApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D778428F5A69300B4BADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2D778D28F5A69300B4BADE /* Numbas_lockdownTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2D778E28F5A69300B4BADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2D779728F5A69300B4BADE /* Numbas_lockdownUITests.swift in Sources */,
+				1E2D779928F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E2D778A28F5A69300B4BADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2D777628F5A69200B4BADE /* Numbas lockdown */;
+			targetProxy = 1E2D778928F5A69300B4BADE /* PBXContainerItemProxy */;
+		};
+		1E2D779428F5A69300B4BADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2D777628F5A69200B4BADE /* Numbas lockdown */;
+			targetProxy = 1E2D779328F5A69300B4BADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E2D779A28F5A69300B4BADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E2D779B28F5A69300B4BADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1E2D779D28F5A69300B4BADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Numbas lockdown/Numbas_lockdown.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Numbas lockdown/Preview Content\"";
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E2D779E28F5A69300B4BADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Numbas lockdown/Numbas_lockdown.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Numbas lockdown/Preview Content\"";
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdown";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E2D77A028F5A69300B4BADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numbas lockdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Numbas lockdown";
+			};
+			name = Debug;
+		};
+		1E2D77A128F5A69300B4BADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdownTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numbas lockdown.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Numbas lockdown";
+			};
+			name = Release;
+		};
+		1E2D77A328F5A69300B4BADE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Numbas lockdown";
+			};
+			name = Debug;
+		};
+		1E2D77A428F5A69300B4BADE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SCZ4FESDNW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdownUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Numbas lockdown";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E2D777228F5A69200B4BADE /* Build configuration list for PBXProject "Numbas lockdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2D779A28F5A69300B4BADE /* Debug */,
+				1E2D779B28F5A69300B4BADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2D779C28F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2D779D28F5A69300B4BADE /* Debug */,
+				1E2D779E28F5A69300B4BADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2D779F28F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2D77A028F5A69300B4BADE /* Debug */,
+				1E2D77A128F5A69300B4BADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E2D77A228F5A69300B4BADE /* Build configuration list for PBXNativeTarget "Numbas lockdownUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E2D77A328F5A69300B4BADE /* Debug */,
+				1E2D77A428F5A69300B4BADE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E2D776F28F5A69200B4BADE /* Project object */;
+}
