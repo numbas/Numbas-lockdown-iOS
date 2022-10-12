@@ -14,6 +14,12 @@
 		1E2D778D28F5A69300B4BADE /* Numbas_lockdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D778C28F5A69300B4BADE /* Numbas_lockdownTests.swift */; };
 		1E2D779728F5A69300B4BADE /* Numbas_lockdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D779628F5A69300B4BADE /* Numbas_lockdownUITests.swift */; };
 		1E2D779928F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D779828F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift */; };
+		1E2D77A628F5A6CD00B4BADE /* BrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D77A528F5A6CD00B4BADE /* BrowserView.swift */; };
+		1E2D77A828F5A6F500B4BADE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D77A728F5A6F500B4BADE /* SettingsView.swift */; };
+		1E2D77AA28F5A70E00B4BADE /* BlankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D77A928F5A70E00B4BADE /* BlankView.swift */; };
+		1E2D77AE28F5A76300B4BADE /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D77AD28F5A76300B4BADE /* AppModel.swift */; };
+		1E2D77B028F5A77300B4BADE /* LaunchSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2D77AF28F5A77300B4BADE /* LaunchSettings.swift */; };
+		1E2D77B328F5A82E00B4BADE /* Scrypt in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2D77B228F5A82E00B4BADE /* Scrypt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		1E2D779228F5A69300B4BADE /* Numbas lockdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Numbas lockdownUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E2D779628F5A69300B4BADE /* Numbas_lockdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownUITests.swift; sourceTree = "<group>"; };
 		1E2D779828F5A69300B4BADE /* Numbas_lockdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbas_lockdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E2D77A528F5A6CD00B4BADE /* BrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserView.swift; sourceTree = "<group>"; };
+		1E2D77A728F5A6F500B4BADE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1E2D77A928F5A70E00B4BADE /* BlankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankView.swift; sourceTree = "<group>"; };
+		1E2D77AD28F5A76300B4BADE /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		1E2D77AF28F5A77300B4BADE /* LaunchSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchSettings.swift; sourceTree = "<group>"; };
+		1E2D77B428F5A86000B4BADE /* Numbas-lockdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Numbas-lockdown-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2D77B328F5A82E00B4BADE /* Scrypt in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,8 +108,10 @@
 		1E2D777928F5A69200B4BADE /* Numbas lockdown */ = {
 			isa = PBXGroup;
 			children = (
+				1E2D77B428F5A86000B4BADE /* Numbas-lockdown-Info.plist */,
+				1E2D77AC28F5A75200B4BADE /* Models */,
+				1E2D77AB28F5A73E00B4BADE /* Views */,
 				1E2D777A28F5A69200B4BADE /* Numbas_lockdownApp.swift */,
-				1E2D777C28F5A69200B4BADE /* ContentView.swift */,
 				1E2D777E28F5A69300B4BADE /* Assets.xcassets */,
 				1E2D778028F5A69300B4BADE /* Numbas_lockdown.entitlements */,
 				1E2D778128F5A69300B4BADE /* Preview Content */,
@@ -129,6 +144,26 @@
 			path = "Numbas lockdownUITests";
 			sourceTree = "<group>";
 		};
+		1E2D77AB28F5A73E00B4BADE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D777C28F5A69200B4BADE /* ContentView.swift */,
+				1E2D77A528F5A6CD00B4BADE /* BrowserView.swift */,
+				1E2D77A728F5A6F500B4BADE /* SettingsView.swift */,
+				1E2D77A928F5A70E00B4BADE /* BlankView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1E2D77AC28F5A75200B4BADE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E2D77AD28F5A76300B4BADE /* AppModel.swift */,
+				1E2D77AF28F5A77300B4BADE /* LaunchSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +180,9 @@
 			dependencies = (
 			);
 			name = "Numbas lockdown";
+			packageProductDependencies = (
+				1E2D77B228F5A82E00B4BADE /* Scrypt */,
+			);
 			productName = "Numbas lockdown";
 			productReference = 1E2D777728F5A69200B4BADE /* Numbas lockdown.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 1E2D776E28F5A69200B4BADE;
+			packageReferences = (
+				1E2D77B128F5A82E00B4BADE /* XCRemoteSwiftPackageReference "swift-scrypt" */,
+			);
 			productRefGroup = 1E2D777828F5A69200B4BADE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E2D777D28F5A69200B4BADE /* ContentView.swift in Sources */,
+				1E2D77AE28F5A76300B4BADE /* AppModel.swift in Sources */,
+				1E2D77AA28F5A70E00B4BADE /* BlankView.swift in Sources */,
+				1E2D77A828F5A6F500B4BADE /* SettingsView.swift in Sources */,
 				1E2D777B28F5A69200B4BADE /* Numbas_lockdownApp.swift in Sources */,
+				1E2D77A628F5A6CD00B4BADE /* BrowserView.swift in Sources */,
+				1E2D77B028F5A77300B4BADE /* LaunchSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,7 +457,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Numbas lockdown/Numbas_lockdown.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Numbas lockdown/Preview Content\"";
@@ -419,6 +467,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Numbas-lockdown-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Numbas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,15 +480,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -449,7 +502,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = "Numbas lockdown/Numbas_lockdown.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Numbas lockdown/Preview Content\"";
@@ -457,6 +512,9 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Numbas-lockdown-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Numbas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,15 +525,17 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.org.numbas.Numbas-lockdown";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -612,6 +672,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E2D77B128F5A82E00B4BADE /* XCRemoteSwiftPackageReference "swift-scrypt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/greymass/swift-scrypt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E2D77B228F5A82E00B4BADE /* Scrypt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E2D77B128F5A82E00B4BADE /* XCRemoteSwiftPackageReference "swift-scrypt" */;
+			productName = Scrypt;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E2D776F28F5A69200B4BADE /* Project object */;
 }
