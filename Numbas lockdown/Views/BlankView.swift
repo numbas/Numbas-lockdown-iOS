@@ -45,6 +45,9 @@ struct BlankView: View {
 
 struct BlankView_Previews: PreviewProvider {
     static var previews: some View {
-        BlankView()
+        ZStack {
+            Color("Background").edgesIgnoringSafeArea(.all)
+            BlankView()
+        }
     }
 }

@@ -10,13 +10,17 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject var launchData : LaunchData
     var body: some View {
-        if launchData.opening_url == nil {
-            BlankView()
-        } else if launchData.launchSettings != nil {
-            BrowserView(viewModel: launchData)
-        } else {
-            SettingsView()
-                .environmentObject(launchData)
+        ZStack {
+            Color("Background").edgesIgnoringSafeArea(.all)
+            
+            if launchData.opening_url == nil {
+                BlankView()
+            } else if launchData.launchSettings != nil {
+                BrowserView(viewModel: launchData)
+            } else {
+                SettingsView()
+                    .environmentObject(launchData)
+            }
         }
     }
 }

@@ -14,16 +14,16 @@ struct SettingsView: View {
     @EnvironmentObject var launchData : LaunchData
     @State private var decryptFailed = false
     var body: some View {
-        VStack {
-            VStack(alignment: .center, spacing: 0) {
+        VStack(spacing: 10) {
+            VStack(alignment: .center, spacing: 20) {
                 Image("Numbas logo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(maxHeight: 40)
-            }
-            VStack(alignment: .leading, spacing: 20) {
                 Text("Opening a Numbas link")
                     .font(.title)
+            }
+            VStack(alignment: .leading, spacing: 10) {
                 Spacer()
                 Text("Enter the password to open this Numbas link.")
                 Text("Your instructor should have given you the password.")
@@ -33,6 +33,7 @@ struct SettingsView: View {
             Spacer(minLength: 10)
             VStack(alignment: .center, spacing: 20) {
                 TextField("Password", text: $launchData.password)
+                    .frame(maxWidth: 16*20)
                     .keyboardType(.asciiCapable)
                     .autocapitalization(.none)
                     .textFieldStyle(.roundedBorder)
@@ -42,15 +43,17 @@ struct SettingsView: View {
                     .onSubmit {
                         loadSettings()
                     }
+                
                 Button("Open") {
                     loadSettings()
                 }
-                .disabled(launchData.password.isEmpty)
-                if(decryptFailed) {
-                    Text("Decryption failed: maybe the password is incorrect.")
-                        .foregroundColor(Color.red)
-                } else {
-                }
+                    .disabled(launchData.password.isEmpty)
+                    .buttonStyle(.borderedProminent)
+                
+                Text("Decryption failed: maybe the password is incorrect.")
+                    .foregroundColor(Color.red)
+                    .opacity(decryptFailed ? 1 : 0)
+                
                 Spacer()
             }
         }
@@ -78,7 +81,10 @@ struct SettingsView: View {
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
-        SettingsView()
-            .environmentObject(LaunchData())
+        ZStack {
+            Color("Background").edgesIgnoringSafeArea(.all)
+            SettingsView()
+                .environmentObject(LaunchData())
+        }
     }
 }
