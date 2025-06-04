@@ -27,17 +27,6 @@ struct BlankView: View {
                     .fixedSize(horizontal: false, vertical: true)
                 Spacer()
             }
-            
-            VStack {
-                Link(destination: URL(string: "https://www.numbas.org.uk/lockdown-app/test")!) {
-                    Text("Open the test page")
-                }
-                .frame(alignment: .center)
-                .foregroundColor(.white)
-                .padding()
-                .background(Color.accentColor)
-                .cornerRadius(8)
-            }
         }
         .padding()
     }
