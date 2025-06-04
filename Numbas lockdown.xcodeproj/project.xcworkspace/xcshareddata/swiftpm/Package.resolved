@@ -1,14 +1,15 @@
 {
+  "originHash" : "975a3dd6a73deeea4462b825758b8477cf2efc11a111d2b6ae39db5aa533d553",
   "pins" : [
     {
       "identity" : "swift-scrypt",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/greymass/swift-scrypt.git",
       "state" : {
-        "revision" : "631f21c36bff63e33ad13353ee801b4a032dda15",
-        "version" : "1.0.2"
+        "branch" : "master",
+        "revision" : "be61ddc3c1efb9cb35de251afa88f4897c6cc255"
       }
     }
   ],
-  "version" : 2
+  "version" : 3
 }
